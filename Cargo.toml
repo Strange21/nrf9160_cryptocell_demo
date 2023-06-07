@@ -1,0 +1,21 @@
+[package]
+authors = ["nuc2kor"]
+edition = "2018"
+readme = "README.md"
+name = "nrf-cryptocell"
+version = "0.1.0"
+
+[dependencies]
+cortex-m = "0.7.7"
+cortex-m-rt = "0.7.3"
+cortex-m-semihosting = "0.5.0"
+panic-halt = "0.2.0"
+nrf9160-hal = "0.16.0"
+cty = "0.2.1" 
+
+[build-dependencies]
+bindgen = "0.65.1"
+
+
+
+
